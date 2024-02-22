@@ -1,0 +1,44 @@
+.list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-bottom: 50px;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   width: 200px;
+   border: 2px solid #000;
+   border-radius: 5px;
+
+}
+
+.avatar {
+   max-width: 150px;
+   margin-bottom: 10px;
+}
+
+.name {
+   font-size: 60px;
+   margin-bottom: 5px;
+   color: rgb(0, 0, 0);
+}
+
+.status {
+   font-size: 48px;
+}
+
+.isOnline {
+   composes: status;
+   color: #0cc509;
+}
+
+.isOffline {
+   composes: status;
+   color: #ff1814;
+}
