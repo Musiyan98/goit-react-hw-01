@@ -33,5 +33,6 @@ tr:nth-child(even) {
 .tbody:hover,
 .tbody:focus {
    cursor: pointer;
-   background-color: #0114a1;
+   background-color: #1a091b;
+   color: #fff;
 }
