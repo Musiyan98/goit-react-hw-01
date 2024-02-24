@@ -1,4 +1,5 @@
 import css from './TransactionHistory.module.css';
+import Transaction from '../Transaction/Transaction';
 
 function TransactionHistory({ transactionList }) {
   return (
@@ -19,15 +20,5 @@ function TransactionHistory({ transactionList }) {
     </table>
   );
 }
-
-const Transaction = ({ transaction: { type, amount, currency } }) => {
-  return (
-    <tr className={css.tbody}>
-      <td className={css.tbItem}>{type}</td>
-      <td className={css.tbItem}>{amount}</td>
-      <td className={css.tbItem}>{currency}</td>
-    </tr>
-  );
-};
 
 export default TransactionHistory;

@@ -25,14 +25,3 @@ tr:nth-child(even) {
    padding: 5px 50px;
    font-size: 50px;
 }
-
-.tbItem {
-   composes: tItem;
-}
-
-.tbody:hover,
-.tbody:focus {
-   cursor: pointer;
-   background-color: #1a091b;
-   color: #fff;
-}
